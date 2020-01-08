@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-user-profile/static/css/main.26e606d0.chunk.css",
+    "main.css": "/react-user-profile/static/css/main.b87cade9.chunk.css",
     "main.js": "/react-user-profile/static/js/main.180d25bc.chunk.js",
     "main.js.map": "/react-user-profile/static/js/main.180d25bc.chunk.js.map",
     "runtime-main.js": "/react-user-profile/static/js/runtime-main.878e4366.js",
@@ -9,10 +9,10 @@
     "static/js/2.1651f1bf.chunk.js": "/react-user-profile/static/js/2.1651f1bf.chunk.js",
     "static/js/2.1651f1bf.chunk.js.map": "/react-user-profile/static/js/2.1651f1bf.chunk.js.map",
     "index.html": "/react-user-profile/index.html",
-    "precache-manifest.3af76564d21510e721d6dcb7834f4ec2.js": "/react-user-profile/precache-manifest.3af76564d21510e721d6dcb7834f4ec2.js",
+    "precache-manifest.c573bd8f76668274b1fb0f8b5f8dcdc4.js": "/react-user-profile/precache-manifest.c573bd8f76668274b1fb0f8b5f8dcdc4.js",
     "service-worker.js": "/react-user-profile/service-worker.js",
     "static/css/2.66ffbf77.chunk.css.map": "/react-user-profile/static/css/2.66ffbf77.chunk.css.map",
-    "static/css/main.26e606d0.chunk.css.map": "/react-user-profile/static/css/main.26e606d0.chunk.css.map",
+    "static/css/main.b87cade9.chunk.css.map": "/react-user-profile/static/css/main.b87cade9.chunk.css.map",
     "static/js/2.1651f1bf.chunk.js.LICENSE": "/react-user-profile/static/js/2.1651f1bf.chunk.js.LICENSE",
     "static/media/font-awesome.css": "/react-user-profile/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/profileImage.png": "/react-user-profile/static/media/profileImage.6b002231.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.878e4366.js",
     "static/css/2.66ffbf77.chunk.css",
     "static/js/2.1651f1bf.chunk.js",
-    "static/css/main.26e606d0.chunk.css",
+    "static/css/main.b87cade9.chunk.css",
     "static/js/main.180d25bc.chunk.js"
   ]
 }
