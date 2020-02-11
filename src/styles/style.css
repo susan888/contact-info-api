@@ -1,0 +1,144 @@
+body{
+  background-color: #FEE715FF;
+
+}
+header{
+  width: 100%;
+  color: white;
+  position: fixed;
+  z-index: 9999;
+  text-align: left;
+  margin-bottom: 10px;
+  display: inline-block;
+  background-color: #101820FF;
+}
+header div{
+  margin: 0% 10%;
+  text-align: center;
+  display: inline-block;
+}
+header div i:hover{
+  color: #FEE715FF;
+}
+.fa-arrow-left{
+  font-size: 25px;
+}
+header p{
+  font: italic bold 25px center;
+  text-align: center;
+  line-height: 60px;
+}
+header p.detailActive{
+  display: inline-block;
+  width: 60%;
+}
+.main-container{
+  width: 100%;
+  /* background-color: #333; */
+}
+.list-style{
+  list-style-type: none;
+}
+.first-element{
+  margin-top: 60px;
+}
+.list-style li{
+  float: left;
+  color: white;
+  padding: 10px 10px;
+  width: calc(100% - 24px);
+  background-color: #101820FF;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+.list-style li:last-child{
+  padding-bottom: 10px;
+  /* border-bottom: 2px dotted #555; */
+
+}
+.list-style li:active{
+  background-color: 101820FF;
+}
+.list-style li:hover{
+  cursor: pointer;
+  color: white;
+  background-color: 101820FF;
+}
+.list-style li img{
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+}
+.list-style li p{
+  font-size: 12px;
+  text-align: left;
+  padding-left: 70px;
+  width: calc(100% - 70px);
+}
+.list-style li p:first-of-type{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-person-detail{
+  max-width: 100%;
+  padding-top: 60px;
+  text-align: center;
+  color: #101820FF;
+}
+.main-person-image{
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+}
+.background-cover{
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+}
+.main-person-image > img{
+  left: 28%;
+  width: 44%;
+  bottom: -25%;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+}
+.background-cover img{
+  min-width: 100%;
+  filter: blur(3px);
+}
+.detail-margin{
+  margin-top: 70px;
+}
+.main-person-detail label{
+  font-size: 13px;
+  display: block;
+  font-weight: bold;
+}
+.main-person-detail label.border{
+  border-radius: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.main-person-detail p{
+  display: inline-block;
+}
+
+@media only screen and (min-width: 361px) {
+  .list-style{
+    float: left;
+  }
+  .background-cover{
+    height: 250px;
+  }
+  .main-person-image > img{
+    left: 42.5%;
+    width: 15%;
+    bottom: -25%;
+  }
+}
