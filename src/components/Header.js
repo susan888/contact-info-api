@@ -5,7 +5,7 @@ export default class Header extends React.Component{
     return(
       <header>
         {this.props.userDetail ? <div><i className="fa fa-arrow-left" onClick = { this.props.goBack }></i></div> : false }
-        <p className = { this.props.userDetail ? 'detailActive' : '' } >{ this.props.title }</p>
+        <p className = { this.props.userDetail ? 'detailActive' : '' } >{ this.props.title + " Info" }</p>
       </header>
     )
   }
