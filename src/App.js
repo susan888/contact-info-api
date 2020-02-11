@@ -8,7 +8,7 @@ function withHeader(Component){
   return function(props){
     return (
       <React.Fragment>
-        <Header title = 'People' />
+        <Header title = 'Contact Info' />
         <Component {...props} clicked = { props.clicked } />
       </React.Fragment>
     );
